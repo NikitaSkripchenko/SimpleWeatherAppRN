@@ -35,14 +35,12 @@ class Weather extends React.Component {
                         <Text style = {styles.welcome}>
                             Current weather for: {this.state.zip}
                         </Text>
-
                         <TextInput
                             underlineColorAndroid = "transparent"
                             style = {styles.input}
                             onSubmitEditing ={this._handleTextChange} />
                         {content}
                     </View>
-
                 </ImageBackground>
         );
     }
